@@ -20,10 +20,21 @@ Using the data from the training portion, I created a model that would predict t
 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/KNN_Vs_Classification_Tree_Models_using_R/blob/536ff7e503330f7cfa47ea293802bdefd534fe81/KNN%20Variable%20Types.png">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/69576ed22747e9916ed78a6d6f4bacc70308b81e/Default%20Tree.jpeg">
 </p>
 
 Based on the plot above, based on the model, the most important attribute ofr selecting all genres is the duration_ms, followed by energy and tempo. 
+
+To evaluate model performance, I calculated the benchmark error rate which came to 86%. This error rate is similar to blindly guessing the main attributes that would affect genre selection. 
+
+I created another tree with stopping rules of 2000, 1000 and 0 for the minbucket, minsplit and cp values respectively. To control for overfitting I used the EasyPrune function to prune the tree and got the following plot. 
+
+<p align="center">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/69576ed22747e9916ed78a6d6f4bacc70308b81e/Default%20Tree.jpeg">
+</p>
+
+
+Even after pruning, duration, tempo and energy remain important attributes for genre selection. 
 
 
 
