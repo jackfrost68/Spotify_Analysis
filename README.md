@@ -1,5 +1,8 @@
 # Spotify-Analysis
 
+Last week Spotify sent out 
+Shoutout to xxxx for being the genius behind it. Read my anaylsis of a spotify dataset 
+
 
 Using data from the [Kaggle] (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) I seek to uncover important attributes related all genres and those of Hip Hop & RnB in particular. 
 
@@ -20,11 +23,10 @@ Using the data from the training portion, I created a model that would predict t
   <img width="600" height="200" src="https://github.com/jackfrost68/KNN_Vs_Classification_Tree_Models_using_R/blob/536ff7e503330f7cfa47ea293802bdefd534fe81/KNN%20Variable%20Types.png">
 </p>
 
-Based on the plot above, based on the model, the most important attribute ofr selecting all genres is the duration_ms
+Based on the plot above, based on the model, the most important attribute ofr selecting all genres is the duration_ms, followed by energy and tempo. 
 
 
 
-I use a classification tree to plot the different branches. 
 
 
 Is it just me or have songs become shorter and shorter lately?  
@@ -35,6 +37,7 @@ Short attention spans cause music producers snippets
 Favorite artists like ahem! (Sir) Kid Cudi 
 
 <ins>*Conclusion:*</ins>
+According to the dataset and model, duration is a key attribute when selecting genres even for HipHop & RnB. 
 
 The drawback to this dataset is the subjective nature of some of the variables. How we measure danceability and loudness of a song can vary by age, gender or nationality. For example, some people prefer faster or mellodramatic love or worship songs. Not mentioning any names but ahem! Sir. Please make longer songs. https://www.youtube.com/@sirvevo2080
 
