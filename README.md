@@ -44,7 +44,7 @@ To investigate further, I reduced the dataset to one that only had RnB and HipHo
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bc3e5b53bd1c80f377c7617ac00d4b93e98c7a5f/Tree%20after%20pruning.jpeg">
 </p>
 
-In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. 
+In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track. The more exclusively speech-like the recording
 
 <ins>*Conclusion:*</ins>
 
