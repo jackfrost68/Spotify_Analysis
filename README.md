@@ -1,7 +1,9 @@
 # Spotify-Analysis
 
-Last week Spotify sent out 
-Shoutout to xxxx for being the genius behind it. Read my anaylsis of a spotify dataset 
+Is it just me or have songs become shorter and shorter lately? 
+
+Last week Spotify sent out the annual Spotify Wrapped feature that highlights a user's music taste. 
+Read my anaylsis of a spotify dataset using a classification tree. Shoutout to xxxx for being the genius behind it.
 
 
 Using data from the [Kaggle] (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) I seek to uncover important attributes related all genres and those of Hip Hop & RnB in particular. 
@@ -30,26 +32,30 @@ To evaluate model performance, I calculated the benchmark error rate which came 
 I created another tree with stopping rules of 2000, 1000 and 0 for the minbucket, minsplit and cp values respectively. To control for overfitting I used the EasyPrune function to prune the tree and got the following plot. 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/69576ed22747e9916ed78a6d6f4bacc70308b81e/Default%20Tree.jpeg">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bc3e5b53bd1c80f377c7617ac00d4b93e98c7a5f/Tree%20after%20pruning.jpeg">
 </p>
 
 
-Even after pruning, duration, tempo and energy remain important attributes for genre selection. 
+Even after pruning, duration, tempo and energy remain important attributes for genre selection. Additionally, after pruning, the error rate fell from 86% to 51%. 
 
+To investigate further, I reduced the dataset to one that only had RnB and HipHop genres. After running the model, I got the plot below;
 
+<p align="center">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bc3e5b53bd1c80f377c7617ac00d4b93e98c7a5f/Tree%20after%20pruning.jpeg">
+</p>
 
-
-
-Is it just me or have songs become shorter and shorter lately?  
-
-
-Short attention spans cause music producers snippets 
-
-Favorite artists like ahem! (Sir) Kid Cudi 
+In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. 
 
 <ins>*Conclusion:*</ins>
-According to the dataset and model, duration is a key attribute when selecting genres even for HipHop & RnB. 
 
-The drawback to this dataset is the subjective nature of some of the variables. How we measure danceability and loudness of a song can vary by age, gender or nationality. For example, some people prefer faster or mellodramatic love or worship songs. Not mentioning any names but ahem! Sir. Please make longer songs. https://www.youtube.com/@sirvevo2080
+According to the dataset and model, duration is a key attribute when selecting genres even for HipHop & RnB. This insight is useful to producers and artists when determining how to strucutre and sell their songs. With TikTok 
+
+
+  Short attention spans cause music producers snippets 
+
+Favorite artists like ahem! (Sir) Kid Cudi Not mentioning any names but ahem! Sir. Please make longer songs. https://www.youtube.com/@sirvevo2080
 
 Thank you! 
+
+
+The drawback to this dataset is the subjective nature of some of the variables. How we measure danceability and loudness of a song can vary by age, gender or nationality. For example, some people prefer an upbeat love songs while others more melodramatic. 
