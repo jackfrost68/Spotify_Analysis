@@ -1,7 +1,7 @@
 # Spotify-Analysis
 
-
-Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle], I built a classification tree model to analyze genre selection. Then using excel, I analyzed the average duration of songs over the last five years.  (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) 
+<ins>*Introduction:*</ins>
+Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I built a classification tree model to analyze genre selection. Then using excel, I analyzed the average duration of songs over the last five years.  
 
 
 <ins>*Managing the dataset:*</ins>
@@ -49,7 +49,7 @@ To investigate further, I reduced the dataset to one that only had RnB and HipHo
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/57f678bb30e428f3ee9d3c40a774d4d956048328/HipHop%20&%20RnB%20tree.jpeg">
 </p>
 
-In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track.
+In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track according to Spotify's data dictionary. 
 
 Lastly, using Excel, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So I converted each row to minutes and plotted it againt the last five years and got the plot below. 
 
