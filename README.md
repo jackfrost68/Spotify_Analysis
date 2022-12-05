@@ -2,8 +2,7 @@
 
 <ins>*Introduction:*</ins>
 
-Last week Spotify sent out its yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I built a classification tree model to analyze genre selection. Just like a decision tree, a classification tree model maps the binary decisions that lead to a specific class. This machine learning model takes input in both numerical and categorical formats e.g. tempo, loudness and tries to make a prediction of a categorical variable e.g. genre. Lastly, using excel, I analyzed the average duration of songs over the last five years.
-
+Last week Spotify sent out its yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I built a classification tree model to analyze genre selection and sought out to analyze the average duration of songs over the last five years using Excel. Just like a decision tree, a classification tree model maps the binary decisions that lead to a specific class. This machine learning model takes input in both numerical and categorical formats e.g. tempo, loudness and tries to make a prediction of a categorical variable e.g. genre. 
 
 <ins>*Managing the dataset:*</ins>
 
