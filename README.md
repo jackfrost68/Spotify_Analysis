@@ -1,7 +1,7 @@
 # Spotify-Analysis
 
 
-Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle], I built a classification tree model to analyze genre selection and song duration over the last few years.  (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) 
+Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle], I built a classification tree model to analyze genre selection. Then using excel, I analyzed the average duration of songs over the last decade.  (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) 
 
 
 <ins>*Managing the dataset:*</ins>
@@ -28,7 +28,7 @@ To evaluate model performance, I calculated the benchmark error rate which came 
 I created another tree with stopping rules of 2000, 1000 and 0 for the minbucket, minsplit and cp values respectively. To control for overfitting I used the EasyPrune function to prune the tree and got the following plot. 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bc3e5b53bd1c80f377c7617ac00d4b93e98c7a5f/Tree%20after%20pruning.jpeg">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/c7b32960c90e1d7637ac9015d4568e49243c630d/Tree%202%20Clearer.png">
 </p>
 
 
