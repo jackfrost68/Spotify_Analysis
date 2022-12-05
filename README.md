@@ -27,8 +27,7 @@ Below is a zoomed in version;
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bdbed1041c626096ffcb66055773f56f04291f41/Zoomed%20in%20tree.png">
 </p>
 
-
-Based on the plot above, based on the model, the most important attribute ofr selecting all genres is the duration_ms, followed by energy and tempo. 
+According to the plot above, based on the model, the most important attribute ofr selecting all genres is the duration_ms, followed by energy and tempo. 
 
 <ins>*Evaluating model performance and controlling overfitting:*</ins>
 
@@ -39,7 +38,6 @@ I created another tree with stopping rules of 2000, 1000 and 0 for the minbucket
 <p align="center">
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/c7b32960c90e1d7637ac9015d4568e49243c630d/Tree%202%20Clearer.png">
 </p>
-
 
 Even after pruning, duration, tempo and energy remain important attributes for genre selection. Additionally, after pruning, the error rate fell from 86% to 51%. 
 
@@ -57,18 +55,12 @@ Lastly, using Excel, I analyzed the average duration of songs over the years. In
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/e1d554d1aeb205d79feb4d00499808b25c021caf/Avg%20Duration%20of%20songs%20over%20the%20years.png">
 </p>
 
-
-
 <ins>*Conclusion:*</ins>
 
-According to the dataset and model, duration is a key attribute when selecting genres even for HipHop & RnB. This insight is useful to producers and artists when determining how to strucutre and sell their songs. With TikTok 
+According to the dataset and model, duration is a key attribute when selecting genres even for HipHop & RnB. This insight is useful to producers and artists when determining how to strucutre and sell their songs that suit today's listeners with short attention spans. 
 
 
-  Short attention spans cause music producers snippets 
 
-Favorite artists like ahem! (Sir) Kid Cudi Not mentioning any names but ahem! Sir. Please make longer songs. https://www.youtube.com/@sirvevo2080
+Most of the times, I find myself annoyed at the short songs some from some of my favorite artsits. I'm not naming anyone, * cough * [Sir](https://www.youtube.com/@sirvevo2080)  * cough *. Please make longer songs, thank you! 
 
-Thank you! 
-
-
-The drawback to this dataset is the subjective nature of some of the variables. How we measure danceability and loudness of a song can vary by age, gender or nationality. For example, some people prefer an upbeat love songs while others more melodramatic. 
+The drawback to this dataset is the subjective nature of some of the variables. How Spotify measures danceability and loudness of a song can differ from person to person either by age, gender or nationality. For example, some people prefer upbeat love songs while others more melodic. 
