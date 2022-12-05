@@ -2,11 +2,11 @@
 
 <ins>*Introduction:*</ins>
 
-Last week Spotify sent out its yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I built a classification tree model to analyze genre selection and sought out to analyze the average duration of songs over the last five years using Excel. Just like a decision tree, a classification tree model maps the binary decisions that lead to a specific class. This machine learning model takes input in both numerical and categorical formats e.g. tempo, loudness and tries to make a prediction of a categorical variable e.g. genre. 
+Last week Spotify sent out its yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I built a classification tree model to analyze genre selection and sought out to analyze the average duration of songs over the last five years using Excel. Just like a decision tree, a classification tree model maps the binary decisions that lead to a specific class or category. I chose this machine learning model because it can take input that is both numerical and categorical formats e.g. tempo, loudness of a song, and makes a prediction for a categorical variable e.g. genre. 
 
 <ins>*Managing the dataset:*</ins>
 
-After importing different libraries (rpart.plot, gmodels and rpart) I loaded the data set to R-Studio. Libraries are a collection of R functions and code that bring more functionality. Think of it as a toolbox that has different tools once could choose from to fix something. I then deleted some columns such as id, analysis_url and Unnamed..0 because they offered little significance to the model and predictions. Lastly, I checked for missing values in the dataset using the is.na function. Fortunately, the dataset had none.
+After importing different libraries (rpart.plot, gmodels and rpart) I loaded the data set to R-Studio. Libraries are a collection of R functions and code that bring more functionality. Think of it as a toolbox that has different tools once could choose from to fix something. R-studio is a system for statistical computation and graphics. Think of it as an advanced Excel or a fancy calculator. Afterwards, I deleted some columns such as id, analysis_url and Unnamed..0 because they offered little significance to the model and predictions. Lastly, I checked for missing values in the dataset using the is.na function. Fortunately, the dataset had none.
 
 <ins>*Partitioning the data:*</ins>
 
