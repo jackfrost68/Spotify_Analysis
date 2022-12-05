@@ -59,8 +59,11 @@ Lastly, using Excel, I analyzed the average duration of songs over the years. In
 
 <ins>*Conclusion:*</ins>
 
-According to the dataset and model, duration is a key attribute when selecting genres, even for HipHop & RnB. This insight is useful to producers and artists when determining how to structure and sell their songs that suit today's listeners with short attention spans.
+According to the dataset and model, duration is a key attribute when selecting genres, even for HipHop & RnB. Over the last five years, the average of a song has steadily decreased. This trend could be attributed to the prolonged exposure to shorter forms of media from platforms like TikTok, Snapchat and Instagram. Producers and artists can leverage this insight to accurately time their songs to suit today's listeners shorter attention spans. 
 
-Severally, I found myself annoyed at the short songs, some from some of my favorite artists. I'm not naming anyone, * cough * [Sir](https://www.youtube.com/@sirvevo2080) * cough *. Please make longer songs, thank you!
+Severally, I found myself annoyed at the short songs from some of my favorite artists. I'm not naming anyone but, * cough * [Sir](https://www.youtube.com/@sirvevo2080) * cough * , Please make longer songs, thank you!
 
 One drawback to this dataset is the subjective nature of some of the variables. How Spotify measures the danceability and loudness of a song can differ from person to person, either by age, gender, or nationality. For example, some people prefer upbeat love songs, while others would opt for more melodic ones.
+
+
+Shoutout to [Jewel Ham](https://www.linkedin.com/in/jeweleham0501/) for being the genius behind Spotify Wrapped! 🙌🏾
