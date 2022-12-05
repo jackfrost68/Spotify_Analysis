@@ -31,7 +31,7 @@ According to the plot above, based on the model, the most important attribute of
 
 <ins>*Evaluating model performance and controlling overfitting:*</ins>
 
-To assess model performance, I calculated the benchmark error rate, which came to 86%. This error rate is similar to blindly guessing the main attributes that would affect genre selection.
+To assess model performance, I calculated the benchmark error rate, which came to 86%. This error rate is similar to blindly guessing the main attributes that would affect genre selection without the help of a model.
 
 Stopping rules are like barriers that prevent the tree from creating more splits/branches. So I created another tree with stopping rules of 2000, 1000, and 0 for the minbucket, minsplit, and cp values respectively. In machine learning, overfitting occurs when a statistical model predicts exactly against the training data i.e. models the training dataset too well. If a model is overfit, it cannot predict against out-of-the-norm data. To control for overfitting, I used the EasyPrune function to "prune" the tree and got the plot below.
 
