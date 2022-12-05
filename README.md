@@ -1,7 +1,7 @@
 # Spotify-Analysis
 
 
-Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle], I built a classification tree model to analyze genre selection. Then using excel, I analyzed the average duration of songs over the last decade.  (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) 
+Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle], I built a classification tree model to analyze genre selection. Then using excel, I analyzed the average duration of songs over the last five years.  (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) 
 
 
 <ins>*Managing the dataset:*</ins>
@@ -21,7 +21,16 @@ Using the data from the training portion, I created a model that would predict t
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/4b98262fd22c00cc82829c9136b4e80f45d6a7d7/Tree%201%20Clearer.png">
 </p>
 
+Below is a zoomed in version;
+
+<p align="center">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/4b98262fd22c00cc82829c9136b4e80f45d6a7d7/Tree%201%20Clearer.png">
+</p>
+
+
 Based on the plot above, based on the model, the most important attribute ofr selecting all genres is the duration_ms, followed by energy and tempo. 
+
+<ins>*Evaluating model performance and controlling overfitting:*</ins>
 
 To evaluate model performance, I calculated the benchmark error rate which came to 86%. This error rate is similar to blindly guessing the main attributes that would affect genre selection. 
 
@@ -42,7 +51,7 @@ To investigate further, I reduced the dataset to one that only had RnB and HipHo
 
 In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track.
 
-Lastly, using Excel, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So I converted each row to minutes and plotted it againt the last ten years and got the plot below. 
+Lastly, using Excel, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So I converted each row to minutes and plotted it againt the last five years and got the plot below. 
 
 <p align="center">
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/e1d554d1aeb205d79feb4d00499808b25c021caf/Avg%20Duration%20of%20songs%20over%20the%20years.png">
