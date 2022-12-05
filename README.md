@@ -1,6 +1,7 @@
 # Spotify-Analysis
 
 <ins>*Introduction:*</ins>
+
 Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I built a classification tree model to analyze genre selection. Then using excel, I analyzed the average duration of songs over the last five years.  
 
 
@@ -61,6 +62,6 @@ According to the dataset and model, duration is a key attribute when selecting g
 
 
 
-Most of the times, I find myself annoyed at the short songs some from some of my favorite artsits. I'm not naming anyone, * cough * [Sir](https://www.youtube.com/@sirvevo2080)  * cough *. Please make longer songs, thank you! 
+Most of the times, I find myself annoyed at the short songs some from some of my favorite artsits. I'm not naming anyone, * cough * [Sir](https://www.youtube.com/@sirvevo2080) * cough *. Please make longer songs, thank you! 
 
-The drawback to this dataset is the subjective nature of some of the variables. How Spotify measures danceability and loudness of a song can differ from person to person either by age, gender or nationality. For example, some people prefer upbeat love songs while others more melodic. 
+One drawback to this dataset is the subjective nature of some of the variables. How Spotify measures danceability and loudness of a song can differ from person to person either by age, gender or nationality. For example, some people prefer upbeat love songs while others more melodic. 
