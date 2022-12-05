@@ -63,7 +63,7 @@ According to the dataset and model, duration is a key attribute when selecting g
 
 Severally, I found myself annoyed at the short songs from some of my favorite artists. I'm not naming anyone but, * cough * [Sir](https://www.youtube.com/@sirvevo2080) * cough * , Please make longer songs, thank you!
 
-One drawback to this dataset is the subjective nature of some of the variables. How Spotify measures the danceability and loudness of a song can differ from person to person, either by age, gender, or nationality. For example, some people prefer upbeat love songs, while others would opt for more melodic ones.
+One drawback to this dataset is the subjective nature of some of the variables. How Spotify measures the danceability and loudness of a song can differ from person to person, either by age, gender, or nationality. For example, some people would prefer upbeat love songs, while others opt for more melodic ones.
 
 
 Shoutout to [Jewel Ham](https://www.linkedin.com/in/jeweleham0501/) for being the genius behind Spotify Wrapped! 🙌🏾 Read more of her story [here](https://www.yahoo.com/now/intern-created-spotify-wrapped-feature-195344023.html)
