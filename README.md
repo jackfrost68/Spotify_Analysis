@@ -7,7 +7,7 @@ Last week Spotify sent out its yearly Spotify Wrapped feature. I noticed most of
 
 <ins>*Managing the dataset:*</ins>
 
-After importing different libraries (rpart.plot, gmodels and rpart) I loaded the data set to R-Studio. Libraries are a collection of R functions and code that bring more functionality. Think of it as a toolbox that has different tools in it that can help one fix something. I then deleted some columns such as id, analysis_url and Unnamed..0 because they offered little significance to the model and predictions. Lastly, I checked for missing values in the dataset using the is.na function. Fortunately, the dataset had none.
+After importing different libraries (rpart.plot, gmodels and rpart) I loaded the data set to R-Studio. Libraries are a collection of R functions and code that bring more functionality. Think of it as a toolbox that has different tools once could choose from to fix something. I then deleted some columns such as id, analysis_url and Unnamed..0 because they offered little significance to the model and predictions. Lastly, I checked for missing values in the dataset using the is.na function. Fortunately, the dataset had none.
 
 <ins>*Partitioning the data:*</ins>
 
@@ -34,7 +34,7 @@ According to the plot above, based on the model, the most important attribute of
 
 To assess model performance, I calculated the benchmark error rate, which came to 86%. This error rate is similar to blindly guessing the main attributes that would affect genre selection.
 
-I created another tree with stopping rules of 2000, 1000, and 0 for the minbucket, minsplit, and cp values, respectively. In machine learning, overfitting occurs when a statistical model predicts exactly against the training data i.e. models the training dataset too well. If a model is overfit, it cannot predict against out-of-the-norm data. To control for overfitting, I used the EasyPrune function to "prune" the tree and got the plot below.
+Stopping rules are like barriers that prevent the tree from creating more splits/branches. So I created another tree with stopping rules of 2000, 1000, and 0 for the minbucket, minsplit, and cp values respectively. In machine learning, overfitting occurs when a statistical model predicts exactly against the training data i.e. models the training dataset too well. If a model is overfit, it cannot predict against out-of-the-norm data. To control for overfitting, I used the EasyPrune function to "prune" the tree and got the plot below.
 
 
 <p align="center">
