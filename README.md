@@ -1,16 +1,7 @@
 # Spotify-Analysis
 
-Caption
-After reviewing my Spotify Wrapped last week, I realized most songs were less than 3 minutes long. After analyzing Spotify data,  Read more here. 
 
-
-Is it just me or have songs become shorter and shorter lately? 
-
-Last week Spotify sent out the annual Spotify Wrapped feature that highlights a user's music taste. 
-Read my anaylsis of a spotify dataset using a classification tree. Shoutout to xxxx for being the genius behind it.
-
-
-Using data from the [Kaggle] (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) I seek to uncover important attributes related all genres and those of Hip Hop & RnB in particular. 
+Last week Spotify sent out their yearly Spotify Wrapped feature. I noticed most of my songs were under 3 minutes. So using data from the [Kaggle], I built a classification tree model to analyze genre selection and song duration over the last few years.  (https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download) 
 
 
 <ins>*Managing the dataset:*</ins>
@@ -22,6 +13,7 @@ After importing different libraries (rpart.plot, gmodels and rpart) I loaded the
 Before building the model, I split the data into two sets. 60% of it was used for training the model and 40% was reserved for testing the model. 
 
 <ins>*Buidling a classfication tree model:*</ins>
+
 Using the data from the training portion, I created a model that would predict the genre type relative to all other variables in the dataset such as tempo, danceability and energy. Using the rpart.plot function, I got the plot below. 
 
 
@@ -50,7 +42,7 @@ To investigate further, I reduced the dataset to one that only had RnB and HipHo
 
 In this case, speechiness, followed by duration were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track.
 
-Addtionally, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So I converted each row to minutes and plotted it againt the last ten years and got the plot below. 
+Lastly, using Excel, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So I converted each row to minutes and plotted it againt the last ten years and got the plot below. 
 
 <p align="center">
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/e1d554d1aeb205d79feb4d00499808b25c021caf/Avg%20Duration%20of%20songs%20over%20the%20years.png">
