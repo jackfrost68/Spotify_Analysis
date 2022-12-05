@@ -1,4 +1,4 @@
-# Spotify-Analysis
+# Genre selection and song duration analysis - Spotify
 
 <ins>*Introduction:*</ins>
 
