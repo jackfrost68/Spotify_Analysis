@@ -24,7 +24,7 @@ Using the data from the training portion, I created a model that would predict t
 Below is a zoomed in version;
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/4b98262fd22c00cc82829c9136b4e80f45d6a7d7/Tree%201%20Clearer.png">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bdbed1041c626096ffcb66055773f56f04291f41/Zoomed%20in%20tree.png">
 </p>
 
 
