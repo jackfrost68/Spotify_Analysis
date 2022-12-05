@@ -59,7 +59,7 @@ Lastly, using Excel, I analyzed the average duration of songs over the years. In
 
 <ins>*Conclusion:*</ins>
 
-According to the dataset and model, duration is a key attribute when selecting genres, even for HipHop & RnB. Over the last five years, the average of a song has steadily decreased. This trend could be attributed to the prolonged exposure to shorter forms of media from platforms like TikTok, Snapchat and Instagram. Producers and artists can leverage this insight to accurately time their songs to suit today's listeners shorter attention spans. 
+According to the dataset and model, duration is a key attribute when selecting genres, even for HipHop & RnB. Over the last five years, the average of a song has steadily decreased. This trend could be attributed to the prolonged exposure to shorter forms of media from platforms like TikTok, Snapchat and Instagram. Producers and artists can leverage this insight to accurately time their songs that suit today's listener's shorter attention spans. 
 
 Severally, I found myself annoyed at the short songs from some of my favorite artists. I'm not naming anyone but, * cough * [Sir](https://www.youtube.com/@sirvevo2080) * cough * , Please make longer songs, thank you!
 
