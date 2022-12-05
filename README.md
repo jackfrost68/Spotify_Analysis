@@ -42,7 +42,8 @@ I created another tree with stopping rules of 2000, 1000, and 0 for the minbucke
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/c7b32960c90e1d7637ac9015d4568e49243c630d/Tree%202%20Clearer.png">
 </p>
 
-Even after pruning, duration, tempo, and energy remain important attributes for genre selection. Additionally, after pruning, the error rate fell from 86% to 51%.
+Even after pruning, duration, tempo, and energy remain important attributes for genre selection. Additionally, pruning reduced the error rate from 86% to 51%.
+
 To investigate further, I reduced the dataset to one that only had RnB and HipHop genres. After running the model, I got the plot below;
 
 <p align="center">
