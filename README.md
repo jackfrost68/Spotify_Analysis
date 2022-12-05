@@ -1,5 +1,9 @@
 # Spotify-Analysis
 
+Caption
+After reviewing my Spotify Wrapped last week, I realized most songs were less than 3 minutes long. After analyzing Spotify data,  Read more here. 
+
+
 Is it just me or have songs become shorter and shorter lately? 
 
 Last week Spotify sent out the annual Spotify Wrapped feature that highlights a user's music taste. 
