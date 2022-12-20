@@ -2,7 +2,8 @@
 
 <ins>*Introduction:*</ins>
 
-To better understand what happens under the hood when selecting a genre of a song on Spotify, I used a random forest model to analyze a data set from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download). I also used a classification tree to analyze important variables at play when selecting songs in HipHop and R&B genres. I chose this machine learning model because it can take in both numerical and categorical data input, e.g., tempo, title, loudness of a song, and make a prediction for a categorical variable, e.g.. genre. Lastly, since most of my songs were under 3 minutes, I analyzed the average duration of songs over the last ten years using Tableau. 
+Following my Spotify wrapped playlist, I was interested in uncovering what happens under the hood when selecting the genre of a song on Spotify. Using a dataset from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download), I implemented a random forest model to see the important variables at play when picking a genre. I also used a classification tree to analyze those variables when choosing songs in HipHop and R&B genres in particular. I chose this machine learning model because it can take in both numerical and categorical data input, e.g., tempo, title, loudness of a song, and make a prediction for a categorical variable, e.g.. genre. Lastly, since most of my songs were under 3 minutes, I analyzed the average duration of songs over the last ten years using Tableau. 
+
 
 
 <ins>*Managing the dataset:*</ins>
