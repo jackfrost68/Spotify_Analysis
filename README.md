@@ -19,7 +19,7 @@ Using the data from the training portion, I created a model that would predict t
 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/0008fa5bd533d759d33c408e5256b13a455da4bb/Variance%20Importance%20Plot.png">
+  <img width="600" height="300" src="https://github.com/jackfrost68/Spotify_Analysis/blob/0008fa5bd533d759d33c408e5256b13a455da4bb/Variance%20Importance%20Plot.png">
 </p>
 
 According to the graph above, based on the model, the most important attribute of selecting all genres is tempo, duration and danceability of a song. 
@@ -30,13 +30,13 @@ Using the data from the training portion, I created a model that would predict t
 
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/4b98262fd22c00cc82829c9136b4e80f45d6a7d7/Tree%201%20Clearer.png">
+  <img width="750" height="350" src="https://github.com/jackfrost68/Spotify_Analysis/blob/4b98262fd22c00cc82829c9136b4e80f45d6a7d7/Tree%201%20Clearer.png">
 </p>
 
 Below is a zoomed in version;
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bdbed1041c626096ffcb66055773f56f04291f41/Zoomed%20in%20tree.png">
+  <img width="600" height="300" src="https://github.com/jackfrost68/Spotify_Analysis/blob/bdbed1041c626096ffcb66055773f56f04291f41/Zoomed%20in%20tree.png">
 </p>
 
 According to the plot above, based on the model, the most important attribute of selecting all genres is the duration_ms, followed by energy and tempo.
@@ -52,7 +52,7 @@ Even after pruning, duration, tempo, and energy remain important attributes for 
 To investigate further, I reduced the dataset to one that only had RnB and HipHop genres. After running the model, I got the plot below;
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/57f678bb30e428f3ee9d3c40a774d4d956048328/HipHop%20&%20RnB%20tree.jpeg">
+  <img width="600" height="300" src="https://github.com/jackfrost68/Spotify_Analysis/blob/57f678bb30e428f3ee9d3c40a774d4d956048328/HipHop%20&%20RnB%20tree.jpeg">
 </p>
 
 In this case, speechiness, followed by duration, were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track, according to Spotify's data dictionary.
@@ -60,7 +60,7 @@ In this case, speechiness, followed by duration, were the defining attributes fo
 Lastly, using Tableau, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So using a calculated field, I converted each row to minutes and plotted it against the last ten years, and got the plot below.
 
 <p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/e1d554d1aeb205d79feb4d00499808b25c021caf/Avg%20Duration%20of%20songs%20over%20the%20years.png">
+  <img width="600" height="350" src="https://github.com/jackfrost68/Spotify_Analysis/blob/82dee8a870dfff374fc7f529efbc972286e08b00/Avg%20duration%20of%20songs.png">
 </p>
 
 <ins>*Conclusion:*</ins>
