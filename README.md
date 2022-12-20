@@ -2,7 +2,7 @@
 
 <ins>*Introduction:*</ins>
 
-Last week Spotify sent out its yearly Spotify Wrapped feature. To better understand what happens under the hood when selecting a genre of a song on Spotify, I used a random forest model to analyze a data set from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download). I also use a classification tree to analyze important variables at play when selecting songs in HipHop and R&B genres. I chose this machine learning model because it can take in both numerical and categorical data input, e.g., tempo, title, loudness of a song, and make a prediction for a categorical variable, e.g.. genre. Lastly, since most of my songs were under 3 minutes, I analyzed the average duration of songs over the last five years using Tableau. 
+To better understand what happens under the hood when selecting a genre of a song on Spotify, I used a random forest model to analyze a data set from [Kaggle](https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?resource=download). I also used a classification tree to analyze important variables at play when selecting songs in HipHop and R&B genres. I chose this machine learning model because it can take in both numerical and categorical data input, e.g., tempo, title, loudness of a song, and make a prediction for a categorical variable, e.g.. genre. Lastly, since most of my songs were under 3 minutes, I analyzed the average duration of songs over the last ten years using Tableau. 
 
 
 <ins>*Managing the dataset:*</ins>
@@ -19,7 +19,7 @@ Using the data from the training portion, I created a model that would predict t
 
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/jackfrost68/Spotify_Analysis/blob/0008fa5bd533d759d33c408e5256b13a455da4bb/Variance%20Importance%20Plot.png">
+  <img width="600" height="350" src="https://github.com/jackfrost68/Spotify_Analysis/blob/0008fa5bd533d759d33c408e5256b13a455da4bb/Variance%20Importance%20Plot.png">
 </p>
 
 According to the graph above, based on the model, the most important attribute of selecting all genres is tempo, duration and danceability of a song. 
@@ -52,7 +52,7 @@ Even after pruning, duration, tempo, and energy remain important attributes for 
 To investigate further, I reduced the dataset to one that only had RnB and HipHop genres. After running the model, I got the plot below;
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/jackfrost68/Spotify_Analysis/blob/57f678bb30e428f3ee9d3c40a774d4d956048328/HipHop%20&%20RnB%20tree.jpeg">
+  <img width="650" height="300" src="https://github.com/jackfrost68/Spotify_Analysis/blob/57f678bb30e428f3ee9d3c40a774d4d956048328/HipHop%20&%20RnB%20tree.jpeg">
 </p>
 
 In this case, speechiness, followed by duration, were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track, according to Spotify's data dictionary.
