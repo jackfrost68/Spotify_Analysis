@@ -19,7 +19,7 @@ Using the data from the training portion, I created a model that would predict t
 
 
 <p align="center">
-  <img width="600" height="200" src="">
+  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/0008fa5bd533d759d33c408e5256b13a455da4bb/Variance%20Importance%20Plot.png">
 </p>
 
 According to the plot above, based on the model, the most important attribute of selecting all genres is tempo, duration and danceability of a song. 
