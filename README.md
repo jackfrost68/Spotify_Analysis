@@ -47,11 +47,6 @@ To assess model performance, I calculated the benchmark error rate, which came t
 
 In machine learning, overfitting occurs when a statistical model predicts exactly against the training data i.e, the model knows the training dataset too well. If a model is overfit, it cannot predict against out-the-norm data. With classification trees, stopping rules help prevent a model from being overfit. The rules are composed of measures known as minbucket, minsplit and cp. Minbucket refers to the minimum number of observations in a node while minsplit refers to the minimum size a node can be to consider splitting into more branches. CP stands for complexity parameter. The higher CP value, the harder it is to split more branches. In my model, I used stopping rules of 2000, 1000, and 0 for the minbucket, minsplit, and cp values respectively. 
 
-
-<p align="center">
-  <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/c7b32960c90e1d7637ac9015d4568e49243c630d/Tree%202%20Clearer.png">
-</p>
-
 Even after pruning, duration, tempo, and energy remain important attributes for genre selection. Additionally, pruning reduced the error rate from 86% to 51%.
 
 To investigate further, I reduced the dataset to one that only had RnB and HipHop genres. After running the model, I got the plot below;
