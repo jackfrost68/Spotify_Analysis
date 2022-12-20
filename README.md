@@ -22,7 +22,7 @@ Using the data from the training portion, I created a model that would predict t
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/0008fa5bd533d759d33c408e5256b13a455da4bb/Variance%20Importance%20Plot.png">
 </p>
 
-According to the plot above, based on the model, the most important attribute of selecting all genres is tempo, duration and danceability of a song. 
+According to the graph above, based on the model, the most important attribute of selecting all genres is tempo, duration and danceability of a song. 
 
 <ins>*Buidling a classfication tree model:*</ins>
 
@@ -57,7 +57,7 @@ To investigate further, I reduced the dataset to one that only had RnB and HipHo
 
 In this case, speechiness, followed by duration, were the defining attributes for RnB and HipHop genres. Speechiness is defined as the presence of spoken words in a track, according to Spotify's data dictionary.
 
-Lastly, using Excel, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So I converted each row to minutes and plotted it against the last five years, and got the plot below.
+Lastly, using Tableau, I analyzed the average duration of songs over the years. In the dataset, the duration is in milliseconds. So using a calculated field, I converted each row to minutes and plotted it against the last ten years, and got the plot below.
 
 <p align="center">
   <img width="600" height="200" src="https://github.com/jackfrost68/Spotify_Analysis/blob/e1d554d1aeb205d79feb4d00499808b25c021caf/Avg%20Duration%20of%20songs%20over%20the%20years.png">
@@ -65,7 +65,7 @@ Lastly, using Excel, I analyzed the average duration of songs over the years. In
 
 <ins>*Conclusion:*</ins>
 
-According to the dataset and model, duration is a key attribute when selecting genres, even for HipHop & RnB. Over the last five years, the average of a song has steadily decreased. This trend could be attributed to the prolonged exposure to shorter forms of media from platforms like TikTok, Snapchat and Instagram. Producers and artists can leverage this insight to accurately time their songs that suit today's listener's shorter attention spans. 
+According to the dataset and models, tempo and duration are a key attributes when selecting genres, even for HipHop & RnB. Over the last ten years, the average of a song has steadily decreased. This trend could be attributed to the prolonged exposure to shorter forms of media from platforms like TikTok, Snapchat and Instagram. Producers and artists can leverage this insight to accurately time their songs that suit today's listener's shorter attention spans. 
 
 Severally, I found myself annoyed at the short songs from some of my favorite artists. I'm not naming anyone but, * cough * [Sir](https://www.youtube.com/@sirvevo2080) * cough * , Please make longer songs, thank you!
 
